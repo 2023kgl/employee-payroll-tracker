@@ -13,7 +13,7 @@ https://github.com/2023kgl/employee-payroll-tracker
 https://2023kgl.github.io/employee-payroll-tracker/
 
 
-![Employee Payroll Tracker Sample](image.png)
+![Employee Payroll Tracker Sample](./Assest/images/Employee-Payroll-Tracker.png)
 
 
 
