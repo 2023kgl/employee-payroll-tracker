@@ -37,7 +37,6 @@ do {                                                            // here i am tel
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {       // function "displayAverageSalary" is taking the date from employeesArray to calculate the average salary of the employee data collected
 // TODO: Calculate and display the average salary
-console.log(employeesArray);
 
   let total = 0;                                             // starting variable is 0
 
@@ -45,7 +44,7 @@ console.log(employeesArray);
     total += employeesArray[i].salary                       // this adds the salary of each employee to total which was set at 0
   }
   let avg = total / employeesArray.length;                  // this is finding the average of the salaries entered by dividing the total salary by the # of employeyes
-  console.log(`The average salary is ${avg}`)              
+  console.log(`The average salary between our ${employeesArray.length} empployees is ${avg}`)              
   
 }
 
@@ -55,7 +54,7 @@ const getRandomEmployee = function(employeesArray) {                        // f
 
   var randomIndex = Math.floor(Math.random() * employeesArray.length);     
   var randEmp = employeesArray[randomIndex];
-  console.log(`The random employee is ${randEmp.firstName} ${randEmp.lastName}`)
+  console.log(`Congratulations to ${randEmp.firstName} ${randEmp.lastName} our random drawing winner!`)
  }
 
 
